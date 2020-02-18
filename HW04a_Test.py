@@ -9,7 +9,6 @@ class TestGetRepo(unittest.TestCase):
                     'Repo: 567HW2 Number of commits: 8',
                     'Repo: 810Project Number of commits: 1',
                     'Repo: GitHubApi567 Number of commits: 10',
-                    'Repo: GitHubApi567-1 Number of commits: 5',
                     'Repo: MGR4Python Number of commits: 1',
                     'Repo: SSW567 Number of commits: 2']
         self.assertEqual(get_repo_info(), expected)
